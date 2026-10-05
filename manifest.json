@@ -1,0 +1,92 @@
+{
+  "name": "HorseRacePredictor | AI 경마 순위 예측 시스템",
+  "short_name": "경마 예측 AI",
+  "description": "KRA 한국마사회 공공데이터 기반 8대 핵심 지표 분석 및 고정밀 AI 경마 순위 예측 시스템",
+  "start_url": "/HorseRacePredictor/",
+  "scope": "/HorseRacePredictor/",
+  "id": "/HorseRacePredictor/",
+  "display": "standalone",
+  "display_override": [
+    "window-controls-overlay",
+    "standalone",
+    "minimal-ui"
+  ],
+  "background_color": "#0B0F19",
+  "theme_color": "#0F172A",
+  "orientation": "any",
+  "lang": "ko-KR",
+  "dir": "ltr",
+  "categories": [
+    "sports",
+    "productivity",
+    "utilities"
+  ],
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "favicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "favicon-48x48.png",
+      "sizes": "48x48",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-maskable-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "icons/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "경주 일정 & 현황",
+      "short_name": "일정",
+      "description": "금일 전국 경마장(서울/부산경남/제주) 경주 일정 확인",
+      "url": "/HorseRacePredictor/#schedule-selector-hub",
+      "icons": [
+        {
+          "src": "icons/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "AI 순위 예측 분석",
+      "short_name": "AI 예측",
+      "description": "8대 핵심 지표 기반 AI 종합 순위 및 신뢰도 분석",
+      "url": "/HorseRacePredictor/#section-ai-cockpit",
+      "icons": [
+        {
+          "src": "icons/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ]
+}
