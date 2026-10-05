@@ -1,5 +1,5 @@
 // HorseRacePredictor PWA Service Worker
-const CACHE_VERSION = 'v1.0.0';
+const CACHE_VERSION = 'v1.0.1';
 const CACHE_NAME = `hrp-cache-${CACHE_VERSION}`;
 
 // Essential app shell static assets to pre-cache
@@ -11,6 +11,7 @@ const STATIC_ASSETS = [
   './favicon.svg',
   './favicon.ico',
   './favicon.png',
+  './favicon-48x48.png',
   './favicon-32x32.png',
   './favicon-16x16.png',
   './apple-touch-icon.png',
